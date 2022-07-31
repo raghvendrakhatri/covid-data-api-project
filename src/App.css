@@ -1,0 +1,67 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App
+{
+    height: 100vh;
+    width: 100%;
+    padding: 3rem ;
+}
+
+.container
+{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+    max-width:90%;
+    margin: auto;
+    height: 89vh;
+    overflow-y: scroll;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 10px 5px;
+  text-align: left;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+td {
+  padding: 15px 0px;
+  text-align: left;
+  border: 1px solid rgba(66, 66, 66, 0.199);
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+td:hover {background-color: #D6EEEE;}
+
+.death:hover{
+    background-color: #FF5D5D;
+}
+
+
+@media screen and (max-width:600px) {
+    .container
+    {
+        max-width: 100%;
+    }
+    
+}
